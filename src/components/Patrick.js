@@ -3,6 +3,6 @@ import { View, Image } from 'react-native'
 
 export default props => (
   <View>
-    <Image source={require('../patrick3.png')} />
+    <Image source={require('../patrick2.png')} />
   </View>
 )

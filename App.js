@@ -14,7 +14,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    this.timerID = setInterval(() => this.updatePatrickPosition(), 100)
+    this.timerID = setInterval(() => this.updatePatrickPosition(), 50)
     this.setState({ title: 'Labirinto' })
   }
 
